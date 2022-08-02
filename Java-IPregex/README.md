@@ -20,8 +20,6 @@ In this problem you will be provided strings containing any combination of ASCII
 
 Just write the MyRegex class which contains a String pattern. The string should contain the correct regular expression.
 
-(MyRegex class MUST NOT be public)
-
 ##Sample Input
 ```
 000.12.12.034

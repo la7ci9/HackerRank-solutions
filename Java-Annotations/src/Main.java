@@ -42,9 +42,9 @@ public class Main {
                         FamilyBudget family = method
                                 .getAnnotation(FamilyBudget.class);
                         String userRole = family.userRole();
-                        int budgetLimit = /*~~Complete this line~~*/;
+                        int budgetLimit = family.budgetLimit();
                         if (userRole.equals(role)) {
-                            if(/*~~Complete this line~~*/){
+                            if(budgetLimit >= spend){
                                 method.invoke(FamilyMember.class.newInstance(),
                                         budgetLimit, spend);
                             }else{
